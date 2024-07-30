@@ -1,0 +1,112 @@
+
+        Propose a budget for the construction item structural design in round 1
+        Current status:
+        {Round}:1
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3000.0,
+    "justification": "This budget is slightly lower than the maximum budget, which can attract potential bidders. It also allows for some flexibility in case of unexpected costs during the project. However, it is not too low to compromise the quality of the service."
+}
+Justification: This budget is slightly lower than the maximum budget, which can attract potential bidders. It also allows for some flexibility in case of unexpected costs during the project. However, it is not too low to compromise the quality of the service.
+
+        Propose a budget for the construction item structural design in round 2
+        Current status:
+        {Round}:2
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: 3000.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0,
+    "justification": "Considering the maximum budget of 5000 and the last bid of 3000 in round 1, increasing the bid to 4500 in round 2 shows seriousness and commitment towards securing a quality service provider for the structural design. This amount allows for a competitive bid while still leaving room for potential negotiations in the final round."
+}
+Justification: Considering the maximum budget of 5000 and the last bid of 3000 in round 1, increasing the bid to 4500 in round 2 shows seriousness and commitment towards securing a quality service provider for the structural design. This amount allows for a competitive bid while still leaving room for potential negotiations in the final round.
+
+        Propose a budget for the construction item structure building in round 1
+        Current status:
+        {Round}:1
+        {Item}:structure building
+        {Maxim budget}:10000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 8000.0,
+    "justification": "This budget is slightly below the maximum budget of 10000, which can attract potential bidders. It allows for some negotiation room while still offering a competitive price. By setting the budget at 8000, we aim to secure a company for the structure building item in round 1 without overspending."
+}
+Justification: This budget is slightly below the maximum budget of 10000, which can attract potential bidders. It allows for some negotiation room while still offering a competitive price. By setting the budget at 8000, we aim to secure a company for the structure building item in round 1 without overspending.
+
+        Propose a budget for the construction item electrics and plumbing in round 1
+        Current status:
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Maxim budget}:4000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 2500.0,
+    "justification": "I propose a budget of 2500 for electrics and plumbing in round 1 because it is a reasonable amount that allows for quality work without exceeding the maximum budget of 4000. This budget offers a balance between cost-effectiveness and ensuring that we attract competent companies to bid for the project."
+}
+Justification: I propose a budget of 2500 for electrics and plumbing in round 1 because it is a reasonable amount that allows for quality work without exceeding the maximum budget of 4000. This budget offers a balance between cost-effectiveness and ensuring that we attract competent companies to bid for the project.
+
+        Propose a budget for the construction item electrics and plumbing in round 2
+        Current status:
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Maxim budget}:4000
+        {Last bid}: 2500.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3500.0,
+    "justification": "Considering the maximum budget of 4000 and the last bid of 2500, increasing the bid to 3500 could show our seriousness and commitment to securing a quality service provider for electrics and plumbing. This amount allows for a competitive offer while still keeping us within budget constraints."
+}
+Justification: Considering the maximum budget of 4000 and the last bid of 2500, increasing the bid to 3500 could show our seriousness and commitment to securing a quality service provider for electrics and plumbing. This amount allows for a competitive offer while still keeping us within budget constraints.
+
+        Propose a budget for the construction item interior design in round 1
+        Current status:
+        {Round}:1
+        {Item}:interior design
+        {Maxim budget}:5000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3000.0,
+    "justification": "This budget allows for a balance between quality and cost. It is reasonable for an interior design project within the maximum budget of 5000, ensuring that we have enough funds for other construction items as well."
+}
+Justification: This budget allows for a balance between quality and cost. It is reasonable for an interior design project within the maximum budget of 5000, ensuring that we have enough funds for other construction items as well.
+
+        Propose a budget for the construction item interior design in round 2
+        Current status:
+        {Round}:2
+        {Item}:interior design
+        {Maxim budget}:5000
+        {Last bid}: 3000.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0,
+    "justification": "Considering the maximum budget of 5000 and the last bid of 3000, increasing the bid to 4500 could show our seriousness and commitment to securing the interior design service. This amount is still within our budget limit and provides a competitive offer to potentially outbid other companies."
+}
+Justification: Considering the maximum budget of 5000 and the last bid of 3000, increasing the bid to 4500 could show our seriousness and commitment to securing the interior design service. This amount is still within our budget limit and provides a competitive offer to potentially outbid other companies.

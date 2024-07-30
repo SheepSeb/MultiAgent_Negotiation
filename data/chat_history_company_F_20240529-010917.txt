@@ -1,0 +1,25 @@
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:4900
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "It's a fair price for the structural design service"}
+Justification: It's a fair price for the structural design service
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:4900
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget is 4500.0 and the minimum cost for structural design is 4900. By accepting the offer, you can still stay within your budget and secure a contract for structural design."
+}
+Justification: Your current budget is 4500.0 and the minimum cost for structural design is 4900. By accepting the offer, you can still stay within your budget and secure a contract for structural design.

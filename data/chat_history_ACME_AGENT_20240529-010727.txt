@@ -1,0 +1,201 @@
+
+        Propose a budget for the construction item structural design in round 1
+        Current status:
+        {Round}:1
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3000.0,
+    "justification": "This budget allows for a competitive offer while still leaving room for potential negotiations in later rounds. It is important to start with a reasonable bid to show seriousness and interest in the project, without risking overbidding and potentially losing profitability."
+}
+Justification: This budget allows for a competitive offer while still leaving room for potential negotiations in later rounds. It is important to start with a reasonable bid to show seriousness and interest in the project, without risking overbidding and potentially losing profitability.
+
+        Propose a budget for the construction item structural design in round 2
+        Current status:
+        {Round}:2
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: 3000.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0,
+    "justification": "Considering the maximum budget of 5000 and the last bid of 3000 in round 1, increasing the bid to 4500 in round 2 shows seriousness and commitment towards securing the service. This amount is still within the budget limit and allows for potential competition while demonstrating a strong interest in acquiring the structural design service."
+}
+Justification: Considering the maximum budget of 5000 and the last bid of 3000 in round 1, increasing the bid to 4500 in round 2 shows seriousness and commitment towards securing the service. This amount is still within the budget limit and allows for potential competition while demonstrating a strong interest in acquiring the structural design service.
+
+        Propose a budget for the construction item structure building in round 1
+        Current status:
+        {Round}:1
+        {Item}:structure building
+        {Maxim budget}:10000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 8000.0,
+    "justification": "This budget is significantly lower than the maximum budget of 10000, which can be attractive to potential bidders. It allows for potential cost savings while still providing a reasonable budget for the structure building. By offering a lower budget in the first round, we can gauge the interest of bidders and potentially secure a good deal for the construction."
+}
+Justification: This budget is significantly lower than the maximum budget of 10000, which can be attractive to potential bidders. It allows for potential cost savings while still providing a reasonable budget for the structure building. By offering a lower budget in the first round, we can gauge the interest of bidders and potentially secure a good deal for the construction.
+
+        Propose a budget for the construction item electrics and plumbing in round 1
+        Current status:
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Maxim budget}:4000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 2500.0,
+    "justification": "I propose a budget of 2500 for electrics and plumbing in round 1. This amount is higher than the initial budget, showing our willingness to invest in quality services. It is also a competitive offer that may attract experienced companies in this field. By offering a reasonable budget, we aim to ensure that we receive high-quality work within the specified budget limit."
+}
+Justification: I propose a budget of 2500 for electrics and plumbing in round 1. This amount is higher than the initial budget, showing our willingness to invest in quality services. It is also a competitive offer that may attract experienced companies in this field. By offering a reasonable budget, we aim to ensure that we receive high-quality work within the specified budget limit.
+
+        Propose a budget for the construction item electrics and plumbing in round 2
+        Current status:
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Maxim budget}:4000
+        {Last bid}: 2500.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3500.0,
+    "justification": "Considering the maximum budget of 4000 and the last bid of 2500, I propose a budget of 3500 for electrics and plumbing in round 2. This increase allows for a competitive bid while still staying within the budget limit. It also shows our seriousness and commitment to securing a company for this construction item."
+}
+Justification: Considering the maximum budget of 4000 and the last bid of 2500, I propose a budget of 3500 for electrics and plumbing in round 2. This increase allows for a competitive bid while still staying within the budget limit. It also shows our seriousness and commitment to securing a company for this construction item.
+
+        Propose a budget for the construction item interior design in round 1
+        Current status:
+        {Round}:1
+        {Item}:interior design
+        {Maxim budget}:5000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3000.0,
+    "justification": "This budget allows for a competitive offer while still leaving room for potential negotiations. It is a reasonable price for the interior design service and shows that we value quality workmanship within the given budget constraints."
+}
+Justification: This budget allows for a competitive offer while still leaving room for potential negotiations. It is a reasonable price for the interior design service and shows that we value quality workmanship within the given budget constraints.
+
+        Propose a budget for the construction item interior design in round 2
+        Current status:
+        {Round}:2
+        {Item}:interior design
+        {Maxim budget}:5000
+        {Last bid}: 3000.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0,
+    "justification": "Considering the maximum budget of 5000 and the last bid of 3000, increasing the bid to 4500 would show our seriousness and commitment to securing the interior design service. This amount is still within our budget limit and provides a competitive offer to potentially outbid other companies."
+}
+Justification: Considering the maximum budget of 5000 and the last bid of 3000, increasing the bid to 4500 would show our seriousness and commitment to securing the interior design service. This amount is still within our budget limit and provides a competitive offer to potentially outbid other companies.
+
+        Propose an offer starting from the first agreed price for the construction item structural design in round 2
+        Current status:
+        {Current Round}:2
+        {Max number of rounds}: 3
+        {Budget}:5000
+        {Item}:structural design
+        {Partner}:MyCompanyAgent_B
+        {How many partner you can negotiate with} : 1
+        {Last offer}: 4500.0
+        {Agreed first price}: 4500.0
+        {Counter offer}: None
+
+If the received offer is lower than the agreed first price or equal offer the same. Otherwise, make a counter offer to lower the price.
+
+If you only have one partner to negotiate with or directly aceept the offer if it is not higher than the buget
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0,
+    "justification": "Since the agreed first price for the structural design was 4500.0 in round 1, and the current offer is also 4500.0 in round 2, it is a fair price to accept without making a counter offer. This ensures that the negotiation progresses smoothly with the partner, MyCompanyAgent_B, and helps maintain a positive relationship for future rounds."
+}
+Justification: Since the agreed first price for the structural design was 4500.0 in round 1, and the current offer is also 4500.0 in round 2, it is a fair price to accept without making a counter offer. This ensures that the negotiation progresses smoothly with the partner, MyCompanyAgent_B, and helps maintain a positive relationship for future rounds.
+Partner MyCompanyAgent_B responded with 4000.0
+Conversation id conv_structural design_MyACMEAgent_ACME_MyCompanyAgent_B
+Partner offer 4000.0
+Partner offer 4000.0
+Negotiation for structural design was won by MyCompanyAgent_B with 4000.0
+
+        Propose an offer starting from the first agreed price for the construction item structure building in round 2
+        Current status:
+        {Current Round}:2
+        {Max number of rounds}: 3
+        {Budget}:10000
+        {Item}:structure building
+        {Partner}:MyCompanyAgent_E
+        {How many partner you can negotiate with} : 1
+        {Last offer}: 8000.0
+        {Agreed first price}: 8000.0
+        {Counter offer}: None
+
+If the received offer is lower than the agreed first price or equal offer the same. Otherwise, make a counter offer to lower the price.
+
+If you only have one partner to negotiate with or directly aceept the offer if it is not higher than the buget
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 8000.0,
+    "justification": "The agreed first price for the structure building was 8000.0 in round 1, and the current offer in round 2 is also 8000.0. Since the offer matches the agreed first price, it is reasonable to accept it to maintain a good relationship with the partner and ensure the construction of the structure building within budget."
+}
+Justification: The agreed first price for the structure building was 8000.0 in round 1, and the current offer in round 2 is also 8000.0. Since the offer matches the agreed first price, it is reasonable to accept it to maintain a good relationship with the partner and ensure the construction of the structure building within budget.
+Partner MyCompanyAgent_E responded with 7000.0
+Conversation id conv_structure building_MyACMEAgent_ACME_MyCompanyAgent_E
+Partner offer 7000.0
+Partner offer 7000.0
+Negotiation for structure building was won by MyCompanyAgent_E with 7000.0
+
+        Propose an offer starting from the first agreed price for the construction item electrics and plumbing in round 2
+        Current status:
+        {Current Round}:2
+        {Max number of rounds}: 3
+        {Budget}:4000
+        {Item}:electrics and plumbing
+        {Partner}:MyCompanyAgent_C
+        {How many partner you can negotiate with} : 2
+        {Last offer}: 3500.0
+        {Agreed first price}: 3500.0
+        {Counter offer}: None
+
+If the received offer is lower than the agreed first price or equal offer the same. Otherwise, make a counter offer to lower the price.
+
+If you only have one partner to negotiate with or directly aceept the offer if it is not higher than the buget
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3500.0,
+    "justification": "Since the agreed first price for the construction item electrics and plumbing was 3500.0, and the received offer is equal to the agreed first price, it is reasonable to accept the offer to maintain a good relationship with the partner and ensure the construction item is completed within budget."
+}
+Justification: Since the agreed first price for the construction item electrics and plumbing was 3500.0, and the received offer is equal to the agreed first price, it is reasonable to accept the offer to maintain a good relationship with the partner and ensure the construction item is completed within budget.
+Partner MyCompanyAgent_C responded with 3600.0
+Conversation id conv_electrics and plumbing_MyACMEAgent_ACME_MyCompanyAgent_C
+Partner offer 3600.0
+Partner offer 3600.0

@@ -1,0 +1,32 @@
+
+        Propose a budget for the construction item structural design in round 1
+        Current status:
+        {Round}:1
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3000.0,
+    "justification": "This budget allows for a competitive offer while still leaving room for potential negotiations in later rounds. It is important to start with a reasonable budget to attract potential bidders without overspending."
+}
+Justification: This budget allows for a competitive offer while still leaving room for potential negotiations in later rounds. It is important to start with a reasonable budget to attract potential bidders without overspending.
+
+        Propose a budget for the construction item structural design in round 2
+        Current status:
+        {Round}:2
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: 3000.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0,
+    "justification": "Considering the maximum budget of 5000 and the last bid of 3000, I propose a budget of 4500 to increase the chances of winning the bid while still staying within the budget limit. This amount allows for a competitive offer without risking overspending."
+}
+Justification: Considering the maximum budget of 5000 and the last bid of 3000, I propose a budget of 4500 to increase the chances of winning the bid while still staying within the budget limit. This amount allows for a competitive offer without risking overspending.

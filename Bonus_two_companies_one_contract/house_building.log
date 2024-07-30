@@ -1,0 +1,9 @@
+2024-05-29 04:08:14,005 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_B'] have accepted construction item structural design at price: 4000.0
+2024-05-29 04:08:14,005 - environment - INFO - [NOTIFICATION] The Auction Phase has finished.
+2024-05-29 04:08:14,008 - environment - INFO - [NOTIFICATION] Construction item structural design assigned to MyCompanyAgent_B!
+2024-05-29 04:09:00,983 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_B'] have accepted construction item structural design at price: 4000.0
+2024-05-29 04:09:00,983 - environment - INFO - [NOTIFICATION] The Auction Phase has finished.
+2024-05-29 04:09:00,986 - environment - INFO - [NOTIFICATION] Construction item structural design assigned to MyCompanyAgent_B!
+2024-05-29 04:16:49,965 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_B'] have accepted construction item structural design at price: 4000.0
+2024-05-29 04:16:49,966 - environment - INFO - [NOTIFICATION] The Auction Phase has finished.
+2024-05-29 04:16:49,969 - environment - INFO - [NOTIFICATION] Construction item structural design assigned to MyCompanyAgent_B!

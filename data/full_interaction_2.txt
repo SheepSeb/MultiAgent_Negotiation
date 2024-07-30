@@ -1,0 +1,1830 @@
+Agent ACME 
+Round auction: 0
+
+        Propose a budget for the construction item structural design in round 1
+        Current status:
+        {Round}:1
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3000.0,
+    "justification": "This budget is slightly lower than the maximum budget, which can attract potential bidders. It also allows for some flexibility in case of unexpected costs during the project. However, it is not too low to compromise the quality of the service."
+}
+Justification: This budget is slightly lower than the maximum budget, which can attract potential bidders. It also allows for some flexibility in case of unexpected costs during the project. However, it is not too low to compromise the quality of the service.
+Agent A 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:6150
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "We can offer you the structural design service for 6150, which is our minimum cost. This will help you secure a contract and start building a relationship with us."
+}
+Justification: We can offer you the structural design service for 6150, which is our minimum cost. This will help you secure a contract and start building a relationship with us.
+Agent B 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:3602
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "We can offer you the structural design service for 3602, which is our minimum cost. This will help you in the construction process and ensure the stability and safety of the building."
+}
+Justification: We can offer you the structural design service for 3602, which is our minimum cost. This will help you in the construction process and ensure the stability and safety of the building.
+Agent F 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:4900
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "It's a fair price for the structural design service"}
+Justification: It's a fair price for the structural design service
+Agent ACME 
+Round auction: 0
+Item structural design in round 0 was won by []
+Agent ACME 
+Round auction: 1
+
+        Propose a budget for the construction item structural design in round 2
+        Current status:
+        {Round}:2
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: 3000.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0,
+    "justification": "Considering the maximum budget of 5000 and the last bid of 3000 in round 1, increasing the bid to 4500 in round 2 shows seriousness and commitment towards securing a quality service provider for the structural design. This amount allows for a competitive bid while still leaving room for potential negotiations in the final round."
+}
+Justification: Considering the maximum budget of 5000 and the last bid of 3000 in round 1, increasing the bid to 4500 in round 2 shows seriousness and commitment towards securing a quality service provider for the structural design. This amount allows for a competitive bid while still leaving room for potential negotiations in the final round.
+Agent A 
+Round auction: 1
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:6150
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "Accepting the offer as it is above our minimum cost and we need to secure at least one contract in the limited rounds"}
+Justification: Accepting the offer as it is above our minimum cost and we need to secure at least one contract in the limited rounds
+Agent B 
+Round auction: 1
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:3602
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget allows for the minimum cost of 3602 for structural design. It's a fair price."
+}
+Justification: Your current budget allows for the minimum cost of 3602 for structural design. It's a fair price.
+Agent F 
+Round auction: 1
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:4900
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "The minimum cost for structural design is 4900, and the last offer was 3000. Accepting the offer will help in securing a contract and generating revenue."
+}
+Justification: The minimum cost for structural design is 4900, and the last offer was 3000. Accepting the offer will help in securing a contract and generating revenue.
+Agent ACME 
+Round auction: 1
+Item structural design in round 1 was won by ['MyCompanyAgent_B']
+Agent B 
+Round auction: 1
+Item structural design in round 1 was won by B with 1 companies
+Agent ACME 
+Round auction: 0
+
+        Propose a budget for the construction item structure building in round 1
+        Current status:
+        {Round}:1
+        {Item}:structure building
+        {Maxim budget}:10000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 8000.0,
+    "justification": "This budget is slightly below the maximum budget of 10000, which can attract potential bidders. It allows for some negotiation room while still offering a competitive price. By setting the budget at 8000, we aim to secure a company for the structure building item in round 1 without overspending."
+}
+Justification: This budget is slightly below the maximum budget of 10000, which can attract potential bidders. It allows for some negotiation room while still offering a competitive price. By setting the budget at 8000, we aim to secure a company for the structure building item in round 1 without overspending.
+Agent A 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:8450
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "We can offer you the structure building service at a discounted price of 8000 to help you stay within your budget and secure a contract."
+}
+Justification: We can offer you the structure building service at a discounted price of 8000 to help you stay within your budget and secure a contract.
+Agent B 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:11000
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "The cost for structure building is within our budget and it is essential for construction projects. Winning this contract will help us generate revenue for future rounds."
+}
+Justification: The cost for structure building is within our budget and it is essential for construction projects. Winning this contract will help us generate revenue for future rounds.
+Agent C 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:8520
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":false, "justification":"The minimum cost for structure building is 8520, which is higher than your current budget of 8000. It would be best to consider other options within your budget for now."}
+Justification: The minimum cost for structure building is 8520, which is higher than your current budget of 8000. It would be best to consider other options within your budget for now.
+Agent D 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:9500
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "It's a fair price for the structure building service."}
+Justification: It's a fair price for the structure building service.
+Agent E 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:6200
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "It's a fair price for the structure building service."}
+Justification: It's a fair price for the structure building service.
+Agent F 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:10500
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"It's a fair price for the structure building service and we have the budget to cover the cost."}
+Justification: It's a fair price for the structure building service and we have the budget to cover the cost.
+Agent ACME 
+Round auction: 0
+Item structure building in round 0 was won by ['MyCompanyAgent_E']
+Agent E 
+Round auction: 0
+Item structure building in round 0 was won by E with 1 companies
+Agent ACME 
+Round auction: 0
+
+        Propose a budget for the construction item electrics and plumbing in round 1
+        Current status:
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Maxim budget}:4000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 2500.0,
+    "justification": "I propose a budget of 2500 for electrics and plumbing in round 1 because it is a reasonable amount that allows for quality work without exceeding the maximum budget of 4000. This budget offers a balance between cost-effectiveness and ensuring that we attract competent companies to bid for the project."
+}
+Justification: I propose a budget of 2500 for electrics and plumbing in round 1 because it is a reasonable amount that allows for quality work without exceeding the maximum budget of 4000. This budget offers a balance between cost-effectiveness and ensuring that we attract competent companies to bid for the project.
+Agent A 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"It's within our budget and we need to secure at least one contract in this round."}
+Justification: It's within our budget and we need to secure at least one contract in this round.
+Agent B 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3900
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "It's a fair price for the electrics and plumbing services, and we need to secure at least one contract in the limited negotiation rounds."
+}
+Justification: It's a fair price for the electrics and plumbing services, and we need to secure at least one contract in the limited negotiation rounds.
+Agent C 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3300
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget allows for the minimum cost of electrics and plumbing. Winning this contract will help you secure a project and generate revenue."
+}
+Justification: Your current budget allows for the minimum cost of electrics and plumbing. Winning this contract will help you secure a project and generate revenue.
+Agent D 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "It's a necessary service for any building project and the cost is within our budget."
+}
+Justification: It's a necessary service for any building project and the cost is within our budget.
+Agent E 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3100
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget allows for the cost of electrics and plumbing, and it is essential for the functionality of the building."
+}
+Justification: Your current budget allows for the cost of electrics and plumbing, and it is essential for the functionality of the building.
+Agent ACME 
+Round auction: 0
+Item electrics and plumbing in round 0 was won by []
+Agent ACME 
+Round auction: 1
+
+        Propose a budget for the construction item electrics and plumbing in round 2
+        Current status:
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Maxim budget}:4000
+        {Last bid}: 2500.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3500.0,
+    "justification": "Considering the maximum budget of 4000 and the last bid of 2500, increasing the bid to 3500 could show our seriousness and commitment to securing a quality service provider for electrics and plumbing. This amount allows for a competitive offer while still keeping us within budget constraints."
+}
+Justification: Considering the maximum budget of 4000 and the last bid of 2500, increasing the bid to 3500 could show our seriousness and commitment to securing a quality service provider for electrics and plumbing. This amount allows for a competitive offer while still keeping us within budget constraints.
+Agent A 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Accepting the minimum cost for electrics and plumbing will help in securing a contract and generating revenue for the company. It is important to win at least one contract within the limited negotiation rounds."
+}
+Justification: Accepting the minimum cost for electrics and plumbing will help in securing a contract and generating revenue for the company. It is important to win at least one contract within the limited negotiation rounds.
+Agent B 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3900
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "The minimum cost for electrics and plumbing is 3900, and the last offer was 2500. Accepting the minimum cost will increase the chances of winning a contract in this round."
+}
+Justification: The minimum cost for electrics and plumbing is 3900, and the last offer was 2500. Accepting the minimum cost will increase the chances of winning a contract in this round.
+Agent C 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3300
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"The minimum cost for electrics and plumbing is 3300 and my current budget is 3500. Accepting this offer will allow me to win a contract within my budget constraints."}
+Justification: The minimum cost for electrics and plumbing is 3300 and my current budget is 3500. Accepting this offer will allow me to win a contract within my budget constraints.
+Agent D 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget is 3500. By accepting the offer for electrics and plumbing at 2500, you can stay within budget and potentially win a contract."
+}
+Justification: Your current budget is 3500. By accepting the offer for electrics and plumbing at 2500, you can stay within budget and potentially win a contract.
+Agent E 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3100
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "The minimum cost for electrics and plumbing is 3100, and the last offer was 2500. Accepting the minimum cost ensures a fair price for the service provided."
+}
+Justification: The minimum cost for electrics and plumbing is 3100, and the last offer was 2500. Accepting the minimum cost ensures a fair price for the service provided.
+Agent ACME 
+Round auction: 1
+Item electrics and plumbing in round 1 was won by ['MyCompanyAgent_C', 'MyCompanyAgent_E']
+Agent C 
+Round auction: 1
+Item electrics and plumbing in round 1 was won by C with 2 companies
+Agent E 
+Round auction: 1
+Item electrics and plumbing in round 1 was won by E with 2 companies
+Agent ACME 
+Round auction: 0
+
+        Propose a budget for the construction item interior design in round 1
+        Current status:
+        {Round}:1
+        {Item}:interior design
+        {Maxim budget}:5000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3000.0,
+    "justification": "This budget allows for a balance between quality and cost. It is reasonable for an interior design project within the maximum budget of 5000, ensuring that we have enough funds for other construction items as well."
+}
+Justification: This budget allows for a balance between quality and cost. It is reasonable for an interior design project within the maximum budget of 5000, ensuring that we have enough funds for other construction items as well.
+Agent C 
+Round auction: 0
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:5200
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget is sufficient to cover the minimum cost for interior design. Winning this contract will help you secure a project and generate revenue."
+}
+Justification: Your current budget is sufficient to cover the minimum cost for interior design. Winning this contract will help you secure a project and generate revenue.
+Agent D 
+Round auction: 0
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:5500
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget allows for the interior design cost, and winning this contract will help establish a presence in the market."
+}
+Justification: Your current budget allows for the interior design cost, and winning this contract will help establish a presence in the market.
+Agent E 
+Round auction: 0
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:5300
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "Interior design is within budget and it is essential for completing the project successfully."}
+Justification: Interior design is within budget and it is essential for completing the project successfully.
+Agent F 
+Round auction: 0
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:4450
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "Interior design fits within the current budget and is a good starting point to attract potential clients."}
+Justification: Interior design fits within the current budget and is a good starting point to attract potential clients.
+Agent ACME 
+Round auction: 0
+Item interior design in round 0 was won by []
+Agent ACME 
+Round auction: 1
+
+        Propose a budget for the construction item interior design in round 2
+        Current status:
+        {Round}:2
+        {Item}:interior design
+        {Maxim budget}:5000
+        {Last bid}: 3000.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0,
+    "justification": "Considering the maximum budget of 5000 and the last bid of 3000, increasing the bid to 4500 could show our seriousness and commitment to securing the interior design service. This amount is still within our budget limit and provides a competitive offer to potentially outbid other companies."
+}
+Justification: Considering the maximum budget of 5000 and the last bid of 3000, increasing the bid to 4500 could show our seriousness and commitment to securing the interior design service. This amount is still within our budget limit and provides a competitive offer to potentially outbid other companies.
+Agent C 
+Round auction: 1
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:5200
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget is 4500.0 which is below the minimum cost for interior design of 5200. By accepting the offer, you can secure a contract and potentially generate revenue."
+}
+Justification: Your current budget is 4500.0 which is below the minimum cost for interior design of 5200. By accepting the offer, you can secure a contract and potentially generate revenue.
+Agent D 
+Round auction: 1
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:5500
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "We accept your offer for interior design as it meets our minimum cost requirement and helps us secure a contract."
+}
+Justification: We accept your offer for interior design as it meets our minimum cost requirement and helps us secure a contract.
+Agent E 
+Round auction: 1
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:5300
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Interior design is a crucial part of the project and the minimum cost of 5300 is reasonable considering the quality of work required."
+}
+Justification: Interior design is a crucial part of the project and the minimum cost of 5300 is reasonable considering the quality of work required.
+Agent F 
+Round auction: 1
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:4450
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "Your offer is very close to our minimum cost for interior design. We are willing to accept it to secure a contract in this round."}
+Justification: Your offer is very close to our minimum cost for interior design. We are willing to accept it to secure a contract in this round.
+Agent ACME 
+Round auction: 1
+Item interior design in round 1 was won by ['MyCompanyAgent_F']
+Agent F 
+Round auction: 1
+Item interior design in round 1 was won by F with 1 companies
+Agent ACME 
+Round auction: 0
+
+        Propose a budget for the construction item structural design in round 1
+        Current status:
+        {Round}:1
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3000.0,
+    "justification": "This budget allows for a competitive offer while still leaving room for potential negotiations in later rounds. It is a balance between being cost-effective and showing commitment to the quality of the structural design service."
+}
+Justification: This budget allows for a competitive offer while still leaving room for potential negotiations in later rounds. It is a balance between being cost-effective and showing commitment to the quality of the structural design service.
+Agent A 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:6150
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Accepting the offer for structural design will help in securing a contract and generating revenue for the company. It is within our budget limit and will increase our chances of winning a project."
+}
+Justification: Accepting the offer for structural design will help in securing a contract and generating revenue for the company. It is within our budget limit and will increase our chances of winning a project.
+Agent B 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:3602
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "We can offer the structural design service at a discounted price of 3000 to help you stay within your current budget."
+}
+Justification: We can offer the structural design service at a discounted price of 3000 to help you stay within your current budget.
+Agent F 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:4900
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "It's a fair price for the structural design service"}
+Justification: It's a fair price for the structural design service
+Agent ACME 
+Round auction: 0
+Item structural design in round 0 was won by []
+Agent ACME 
+Round auction: 1
+
+        Propose a budget for the construction item structural design in round 2
+        Current status:
+        {Round}:2
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: 3000.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0,
+    "justification": "Considering the maximum budget of 5000 and the last bid of 3000 in round 1, increasing the bid to 4500 in round 2 shows seriousness and commitment towards securing a quality service provider for the structural design. This amount allows for a competitive offer while still leaving room for potential negotiations in the final round."
+}
+Justification: Considering the maximum budget of 5000 and the last bid of 3000 in round 1, increasing the bid to 4500 in round 2 shows seriousness and commitment towards securing a quality service provider for the structural design. This amount allows for a competitive offer while still leaving room for potential negotiations in the final round.
+Agent A 
+Round auction: 1
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:6150
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "We are willing to accept the offer for the structural design as it meets our minimum cost requirement and helps us secure a contract in this round."
+}
+Justification: We are willing to accept the offer for the structural design as it meets our minimum cost requirement and helps us secure a contract in this round.
+Agent B 
+Round auction: 1
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:3602
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "The offer meets our minimum cost for structural design and will help us secure a contract in this round."
+}
+Justification: The offer meets our minimum cost for structural design and will help us secure a contract in this round.
+Agent F 
+Round auction: 1
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:4900
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"Your offer of 3000 is close to our minimum cost of 4900. We are willing to accept it to secure a contract in this round."}
+Justification: Your offer of 3000 is close to our minimum cost of 4900. We are willing to accept it to secure a contract in this round.
+Agent ACME 
+Round auction: 1
+Item structural design in round 1 was won by ['MyCompanyAgent_B']
+Agent B 
+Round auction: 1
+Item structural design in round 1 was won by B with 1 companies
+Agent ACME 
+Round auction: 0
+
+        Propose a budget for the construction item structure building in round 1
+        Current status:
+        {Round}:1
+        {Item}:structure building
+        {Maxim budget}:10000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 8000.0,
+    "justification": "This budget is lower than the maximum budget of 10000, which can be attractive to potential bidders. It allows for some negotiation room while still being within the acceptable range for the item. By offering a competitive price in the first round, we can potentially secure a bidder early on and avoid overbidding in later rounds."
+}
+Justification: This budget is lower than the maximum budget of 10000, which can be attractive to potential bidders. It allows for some negotiation room while still being within the acceptable range for the item. By offering a competitive price in the first round, we can potentially secure a bidder early on and avoid overbidding in later rounds.
+Agent A 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:8450
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"It's a fair price for the structure building service and we need to secure at least one contract in the limited rounds available."}
+Justification: It's a fair price for the structure building service and we need to secure at least one contract in the limited rounds available.
+Agent B 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:11000
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "It's within our budget and we need to secure at least one contract in the limited negotiation rounds."
+}
+Justification: It's within our budget and we need to secure at least one contract in the limited negotiation rounds.
+Agent C 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:8520
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": false,
+    "justification": "The minimum cost for structure building is 8520, which is higher than your current budget of 8000. It would be better to consider other options within your budget to increase the chances of winning a contract."
+}
+Justification: The minimum cost for structure building is 8520, which is higher than your current budget of 8000. It would be better to consider other options within your budget to increase the chances of winning a contract.
+Agent D 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:9500
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "We can offer you the structure building for 9000, which is below your budget of 9500 and will help you save costs."
+}
+Justification: We can offer you the structure building for 9000, which is below your budget of 9500 and will help you save costs.
+Agent E 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:6200
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "It's a fair price for the structure building item and we have the budget to cover the cost."}
+Justification: It's a fair price for the structure building item and we have the budget to cover the cost.
+Agent F 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:10500
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"Your current budget of 8000 is below the minimum cost of 10500 for structure building. By accepting the minimum cost, you have a chance to win a contract in this round."}
+Justification: Your current budget of 8000 is below the minimum cost of 10500 for structure building. By accepting the minimum cost, you have a chance to win a contract in this round.
+Agent ACME 
+Round auction: 0
+Item structure building in round 0 was won by ['MyCompanyAgent_E']
+Agent E 
+Round auction: 0
+Item structure building in round 0 was won by E with 1 companies
+Agent ACME 
+Round auction: 0
+
+        Propose a budget for the construction item electrics and plumbing in round 1
+        Current status:
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Maxim budget}:4000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 2500.0,
+    "justification": "I propose a budget of 2500 for electrics and plumbing in round 1. This amount is higher than the initial budget, showing our willingness to invest in quality services. It is also a competitive offer that may attract experienced companies in this field. By offering a reasonable budget, we increase the chances of securing a reliable contractor for this crucial aspect of the construction project."
+}
+Justification: I propose a budget of 2500 for electrics and plumbing in round 1. This amount is higher than the initial budget, showing our willingness to invest in quality services. It is also a competitive offer that may attract experienced companies in this field. By offering a reasonable budget, we increase the chances of securing a reliable contractor for this crucial aspect of the construction project.
+Agent A 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your minimum cost for electrics and plumbing aligns with our budget, and we are interested in moving forward with this item to secure a contract."
+}
+Justification: Your minimum cost for electrics and plumbing aligns with our budget, and we are interested in moving forward with this item to secure a contract.
+Agent B 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3900
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "It's a fair price for the electrics and plumbing services, and we need to secure at least one contract in the limited negotiation rounds."
+}
+Justification: It's a fair price for the electrics and plumbing services, and we need to secure at least one contract in the limited negotiation rounds.
+Agent C 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3300
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget allows for the cost of electrics and plumbing, and it is essential for completing a construction project."
+}
+Justification: Your current budget allows for the cost of electrics and plumbing, and it is essential for completing a construction project.
+Agent D 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "It's a necessary service for any building project and the cost is within our budget."
+}
+Justification: It's a necessary service for any building project and the cost is within our budget.
+Agent E 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3100
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"Accepting the offer for electrics and plumbing will allow us to secure a contract within our budget constraints."}
+Justification: Accepting the offer for electrics and plumbing will allow us to secure a contract within our budget constraints.
+Agent ACME 
+Round auction: 0
+Item electrics and plumbing in round 0 was won by []
+Agent ACME 
+Round auction: 1
+
+        Propose a budget for the construction item electrics and plumbing in round 2
+        Current status:
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Maxim budget}:4000
+        {Last bid}: 2500.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3500.0,
+    "justification": "Considering the maximum budget of 4000 and the last bid of 2500, I propose a budget of 3500 for electrics and plumbing in round 2. This increase allows for a competitive bid while still staying within the budget limit. It also shows our seriousness in acquiring this service."
+}
+Justification: Considering the maximum budget of 4000 and the last bid of 2500, I propose a budget of 3500 for electrics and plumbing in round 2. This increase allows for a competitive bid while still staying within the budget limit. It also shows our seriousness in acquiring this service.
+Agent A 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "The minimum cost for electrics and plumbing is 3800, and your current budget is 3500. Accepting the offer will help you secure a contract and generate revenue."
+}
+Justification: The minimum cost for electrics and plumbing is 3800, and your current budget is 3500. Accepting the offer will help you secure a contract and generate revenue.
+Agent B 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3900
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "The minimum cost for electrics and plumbing is 3900, and the last offer was 2500. Accepting the minimum cost will ensure a fair price for the services provided."
+}
+Justification: The minimum cost for electrics and plumbing is 3900, and the last offer was 2500. Accepting the minimum cost will ensure a fair price for the services provided.
+Agent C 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3300
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "Accepting the minimum cost for electrics and plumbing will help in winning a contract within the budget constraints."}
+Justification: Accepting the minimum cost for electrics and plumbing will help in winning a contract within the budget constraints.
+Agent D 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget is 3500. By accepting the offer for electrics and plumbing at 2500, you can stay within budget and potentially win a contract."
+}
+Justification: Your current budget is 3500. By accepting the offer for electrics and plumbing at 2500, you can stay within budget and potentially win a contract.
+Agent E 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3100
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Accepting the minimum cost for electrics and plumbing will help in securing a contract within the budget constraints."
+}
+Justification: Accepting the minimum cost for electrics and plumbing will help in securing a contract within the budget constraints.
+Agent ACME 
+Round auction: 1
+Item electrics and plumbing in round 1 was won by ['MyCompanyAgent_C', 'MyCompanyAgent_E']
+Agent C 
+Round auction: 1
+Item electrics and plumbing in round 1 was won by C with 2 companies
+Agent E 
+Round auction: 1
+Item electrics and plumbing in round 1 was won by E with 2 companies
+Agent ACME 
+Round auction: 0
+
+        Propose a budget for the construction item interior design in round 1
+        Current status:
+        {Round}:1
+        {Item}:interior design
+        {Maxim budget}:5000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3000.0,
+    "justification": "This budget allows for a competitive offer while still leaving room for potential negotiations. It is a reasonable price for the interior design service and shows that we are willing to invest in quality workmanship."
+}
+Justification: This budget allows for a competitive offer while still leaving room for potential negotiations. It is a reasonable price for the interior design service and shows that we are willing to invest in quality workmanship.
+Agent C 
+Round auction: 0
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:5200
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Accepting the interior design offer will allow us to secure a contract within our budget constraints."
+}
+Justification: Accepting the interior design offer will allow us to secure a contract within our budget constraints.
+Agent D 
+Round auction: 0
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:5500
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget allows for the interior design cost and it is within the minimum cost for this item."
+}
+Justification: Your current budget allows for the interior design cost and it is within the minimum cost for this item.
+Agent E 
+Round auction: 0
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:5300
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "Interior design is within budget and can help attract clients"}
+Justification: Interior design is within budget and can help attract clients
+Agent F 
+Round auction: 0
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:4450
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"Your offer is within our budget and we believe interior design is a crucial aspect of the project."}
+Justification: Your offer is within our budget and we believe interior design is a crucial aspect of the project.
+Agent ACME 
+Round auction: 0
+Item interior design in round 0 was won by []
+Agent ACME 
+Round auction: 1
+
+        Propose a budget for the construction item interior design in round 2
+        Current status:
+        {Round}:2
+        {Item}:interior design
+        {Maxim budget}:5000
+        {Last bid}: 3000.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0,
+    "justification": "Considering the maximum budget of 5000 and the last bid of 3000, increasing the bid to 4500 would show our seriousness and commitment to securing the interior design service. This amount is still within our budget limit and provides a competitive offer to potentially outbid other companies."
+}
+Justification: Considering the maximum budget of 5000 and the last bid of 3000, increasing the bid to 4500 would show our seriousness and commitment to securing the interior design service. This amount is still within our budget limit and provides a competitive offer to potentially outbid other companies.
+Agent C 
+Round auction: 1
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:5200
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "Accepting the offer will allow us to secure a contract for interior design within our budget constraints."}
+Justification: Accepting the offer will allow us to secure a contract for interior design within our budget constraints.
+Agent D 
+Round auction: 1
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:5500
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "We can accept the offer for interior design at 5500 since it is our minimum cost and we need to secure at least one contract in the limited rounds."
+}
+Justification: We can accept the offer for interior design at 5500 since it is our minimum cost and we need to secure at least one contract in the limited rounds.
+Agent E 
+Round auction: 1
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:5300
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Interior design is a crucial part of the project and the minimum cost of 5300 is reasonable considering the quality of work required."
+}
+Justification: Interior design is a crucial part of the project and the minimum cost of 5300 is reasonable considering the quality of work required.
+Agent F 
+Round auction: 1
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:4450
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your offer is very close to our minimum cost for interior design, and we see potential for a mutually beneficial partnership. We accept your offer for interior design."
+}
+Justification: Your offer is very close to our minimum cost for interior design, and we see potential for a mutually beneficial partnership. We accept your offer for interior design.
+Agent ACME 
+Round auction: 1
+Item interior design in round 1 was won by ['MyCompanyAgent_F']
+Agent F 
+Round auction: 1
+Item interior design in round 1 was won by F with 1 companies
+Agent ACME 
+Round auction: 0
+
+        Propose a budget for the construction item structural design in round 1
+        Current status:
+        {Round}:1
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3000.0,
+    "justification": "This budget is slightly below the maximum budget, which can be attractive to potential bidders. It allows for some negotiation room while still being within the acceptable range. This strategy can help in securing a good deal for the structural design service while avoiding overspending."
+}
+Justification: This budget is slightly below the maximum budget, which can be attractive to potential bidders. It allows for some negotiation room while still being within the acceptable range. This strategy can help in securing a good deal for the structural design service while avoiding overspending.
+Agent A 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:6150
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "We can offer you the structural design service for 6150, which is our minimum cost. This will help you secure a contract and start building a relationship with us."
+}
+Justification: We can offer you the structural design service for 6150, which is our minimum cost. This will help you secure a contract and start building a relationship with us.
+Agent B 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:3602
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "It's within our budget and we need to secure at least one contract"}
+Justification: It's within our budget and we need to secure at least one contract
+Agent F 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:4900
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget allows for the cost of the structural design service."
+}
+Justification: Your current budget allows for the cost of the structural design service.
+Agent ACME 
+Round auction: 0
+Item structural design in round 0 was won by []
+Agent ACME 
+Round auction: 1
+
+        Propose a budget for the construction item structural design in round 2
+        Current status:
+        {Round}:2
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: 3000.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0,
+    "justification": "Considering the maximum budget of 5000 and the last bid of 3000 in round 1, increasing the bid to 4500 in round 2 shows seriousness and commitment towards securing a quality service provider for the structural design. This amount allows for a competitive offer while still leaving room for potential negotiations in the final round."
+}
+Justification: Considering the maximum budget of 5000 and the last bid of 3000 in round 1, increasing the bid to 4500 in round 2 shows seriousness and commitment towards securing a quality service provider for the structural design. This amount allows for a competitive offer while still leaving room for potential negotiations in the final round.
+Agent A 
+Round auction: 1
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:6150
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget of 4500.0 is closer to the minimum cost of 6150 for structural design. Accepting the offer of 3000.0 will allow you to stay within budget and potentially win a contract."
+}
+Justification: Your current budget of 4500.0 is closer to the minimum cost of 6150 for structural design. Accepting the offer of 3000.0 will allow you to stay within budget and potentially win a contract.
+Agent B 
+Round auction: 1
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:3602
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your offer meets our minimum cost for structural design and we are willing to accept it to secure a contract."
+}
+Justification: Your offer meets our minimum cost for structural design and we are willing to accept it to secure a contract.
+Agent F 
+Round auction: 1
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:4900
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "Your current budget is 4500.0 and the minimum cost for structural design is 4900. By accepting the offer, you can secure a contract and stay within your budget."}
+Justification: Your current budget is 4500.0 and the minimum cost for structural design is 4900. By accepting the offer, you can secure a contract and stay within your budget.
+Agent ACME 
+Round auction: 1
+Item structural design in round 1 was won by ['MyCompanyAgent_B']
+Agent B 
+Round auction: 1
+Item structural design in round 1 was won by B with 1 companies
+Agent ACME 
+Round auction: 0
+
+        Propose a budget for the construction item structure building in round 1
+        Current status:
+        {Round}:1
+        {Item}:structure building
+        {Maxim budget}:10000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 8000.0,
+    "justification": "This budget is lower than the maximum budget, allowing for potential cost savings. It also shows that we are willing to negotiate and potentially attract more bidders. However, it is still a substantial amount that reflects the value we place on the structure building item."
+}
+Justification: This budget is lower than the maximum budget, allowing for potential cost savings. It also shows that we are willing to negotiate and potentially attract more bidders. However, it is still a substantial amount that reflects the value we place on the structure building item.
+Agent A 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:8450
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"It's a fair price and we need to secure a contract in this round to meet our goal. We can adjust our budget for this round to accommodate the cost of structure building."}
+Justification: It's a fair price and we need to secure a contract in this round to meet our goal. We can adjust our budget for this round to accommodate the cost of structure building.
+Agent B 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:11000
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "It's a necessary item for construction and fits within our budget."
+}
+Justification: It's a necessary item for construction and fits within our budget.
+Agent C 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:8520
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": false,
+    "justification": "The minimum cost for structure building is 8520, which is higher than your current budget of 8000. It would be better to consider other options within your budget for now."
+}
+Justification: The minimum cost for structure building is 8520, which is higher than your current budget of 8000. It would be better to consider other options within your budget for now.
+Agent D 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:9500
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "It's a fair price for the structure building service"}
+Justification: It's a fair price for the structure building service
+Agent E 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:6200
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "The minimum cost for structure building is within our budget and it is essential for winning contracts."
+}
+Justification: The minimum cost for structure building is within our budget and it is essential for winning contracts.
+Agent F 
+Round auction: 0
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:10500
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"Your current budget of 8000 is below the minimum cost of 10500 for structure building. Accepting the offer will help you secure a contract and generate revenue."}
+Justification: Your current budget of 8000 is below the minimum cost of 10500 for structure building. Accepting the offer will help you secure a contract and generate revenue.
+Agent ACME 
+Round auction: 0
+Item structure building in round 0 was won by ['MyCompanyAgent_E']
+Agent E 
+Round auction: 0
+Item structure building in round 0 was won by E with 1 companies
+Agent ACME 
+Round auction: 0
+
+        Propose a budget for the construction item electrics and plumbing in round 1
+        Current status:
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Maxim budget}:4000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 2500.0,
+    "justification": "I propose a budget of 2500 for electrics and plumbing in round 1. This amount is slightly lower than the maximum budget of 4000, which can be advantageous in case other companies bid higher. It also leaves room for potential negotiations in the following rounds. However, it is important to ensure that the budget is still attractive enough to entice companies to participate in the construction."
+}
+Justification: I propose a budget of 2500 for electrics and plumbing in round 1. This amount is slightly lower than the maximum budget of 4000, which can be advantageous in case other companies bid higher. It also leaves room for potential negotiations in the following rounds. However, it is important to ensure that the budget is still attractive enough to entice companies to participate in the construction.
+Agent A 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Accepting the offer for electrics and plumbing at 3800 will help in securing a contract and generating revenue for the company. It is within our budget and meets the client's needs."
+}
+Justification: Accepting the offer for electrics and plumbing at 3800 will help in securing a contract and generating revenue for the company. It is within our budget and meets the client's needs.
+Agent B 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3900
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "It's a fair price for the electrics and plumbing services, and we need to secure at least one contract in the limited negotiation rounds."
+}
+Justification: It's a fair price for the electrics and plumbing services, and we need to secure at least one contract in the limited negotiation rounds.
+Agent C 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3300
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget is sufficient to cover the minimum cost for electrics and plumbing. Winning this contract will help you secure a project and generate revenue."
+}
+Justification: Your current budget is sufficient to cover the minimum cost for electrics and plumbing. Winning this contract will help you secure a project and generate revenue.
+Agent D 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"Your current budget is sufficient to cover the minimum cost for electrics and plumbing. Winning this contract will help you secure a project."}
+Justification: Your current budget is sufficient to cover the minimum cost for electrics and plumbing. Winning this contract will help you secure a project.
+Agent E 
+Round auction: 0
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3100
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"Accepting the offer for electrics and plumbing at the minimum cost will allow us to secure a contract within our budget constraints."}
+Justification: Accepting the offer for electrics and plumbing at the minimum cost will allow us to secure a contract within our budget constraints.
+Agent ACME 
+Round auction: 0
+Item electrics and plumbing in round 0 was won by []
+Agent ACME 
+Round auction: 1
+
+        Propose a budget for the construction item electrics and plumbing in round 2
+        Current status:
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Maxim budget}:4000
+        {Last bid}: 2500.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3500.0,
+    "justification": "Considering the maximum budget of 4000 and the last bid of 2500, increasing the bid to 3500 would show our seriousness in acquiring the service while still leaving room for potential counterbids. This amount is reasonable for the service provided and aligns with our goal of securing a company for electrics and plumbing construction."
+}
+Justification: Considering the maximum budget of 4000 and the last bid of 2500, increasing the bid to 3500 would show our seriousness in acquiring the service while still leaving room for potential counterbids. This amount is reasonable for the service provided and aligns with our goal of securing a company for electrics and plumbing construction.
+Agent A 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "The minimum cost for electrics and plumbing is 3800, which is higher than your last offer of 2500. Accepting the minimum cost will help you secure a contract and generate revenue."
+}
+Justification: The minimum cost for electrics and plumbing is 3800, which is higher than your last offer of 2500. Accepting the minimum cost will help you secure a contract and generate revenue.
+Agent B 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3900
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "The minimum cost for electrics and plumbing is 3900, and your last offer was 2500. Accepting the minimum cost will increase the chances of winning a contract in the next round."
+}
+Justification: The minimum cost for electrics and plumbing is 3900, and your last offer was 2500. Accepting the minimum cost will increase the chances of winning a contract in the next round.
+Agent C 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3300
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "The minimum cost for electrics and plumbing is 3300, and the last offer was 2500. Accepting the minimum cost will help in winning a contract within the budget constraints."
+}
+Justification: The minimum cost for electrics and plumbing is 3300, and the last offer was 2500. Accepting the minimum cost will help in winning a contract within the budget constraints.
+Agent D 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget is 3500. By accepting the offer for electrics and plumbing at 2500, you can stay within budget and potentially win a contract."
+}
+Justification: Your current budget is 3500. By accepting the offer for electrics and plumbing at 2500, you can stay within budget and potentially win a contract.
+Agent E 
+Round auction: 1
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3100
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget is 3500.0, which is above the minimum cost of 3100 for electrics and plumbing. Winning this contract will help you secure a project." 
+}
+Justification: Your current budget is 3500.0, which is above the minimum cost of 3100 for electrics and plumbing. Winning this contract will help you secure a project.
+Agent ACME 
+Round auction: 1
+Item electrics and plumbing in round 1 was won by ['MyCompanyAgent_C', 'MyCompanyAgent_E']
+Agent C 
+Round auction: 1
+Item electrics and plumbing in round 1 was won by C with 2 companies
+Agent E 
+Round auction: 1
+Item electrics and plumbing in round 1 was won by E with 2 companies
+Agent ACME 
+Round auction: 0
+
+        Propose a budget for the construction item interior design in round 1
+        Current status:
+        {Round}:1
+        {Item}:interior design
+        {Maxim budget}:5000
+        {Last bid}: None
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3000.0,
+    "justification": "This budget allows for a balance between quality and cost. It is reasonable for an interior design project within the maximum budget of 5000. It also leaves room for potential negotiations in case of competing bids in the auction."
+}
+Justification: This budget allows for a balance between quality and cost. It is reasonable for an interior design project within the maximum budget of 5000. It also leaves room for potential negotiations in case of competing bids in the auction.
+Agent C 
+Round auction: 0
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:5200
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "It's a fair price considering the minimum cost for interior design is 5200 and your current budget is 3000. Winning this contract will help you reach your goal of having at least one contract won."}
+Justification: It's a fair price considering the minimum cost for interior design is 5200 and your current budget is 3000. Winning this contract will help you reach your goal of having at least one contract won.
+Agent D 
+Round auction: 0
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:5500
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Interior design is a key aspect of the project and the minimum cost of 5500 is reasonable considering the quality of work required."
+}
+Justification: Interior design is a key aspect of the project and the minimum cost of 5500 is reasonable considering the quality of work required.
+Agent E 
+Round auction: 0
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:5300
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"Interior design is within budget and can help attract clients"}
+Justification: Interior design is within budget and can help attract clients
+Agent F 
+Round auction: 0
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:4450
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget allows for the interior design cost and it is within your minimum cost for this item."
+}
+Justification: Your current budget allows for the interior design cost and it is within your minimum cost for this item.
+Agent ACME 
+Round auction: 0
+Item interior design in round 0 was won by []
+Agent ACME 
+Round auction: 1
+
+        Propose a budget for the construction item interior design in round 2
+        Current status:
+        {Round}:2
+        {Item}:interior design
+        {Maxim budget}:5000
+        {Last bid}: 3000.0
+
+You will only respond in JSON format and provide a justification for it. Like this: {'budget': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0,
+    "justification": "Considering the maximum budget of 5000 and the last bid of 3000, increasing the bid to 4500 could show commitment and seriousness in acquiring the interior design service. This amount is still below the maximum budget, allowing for potential negotiation room in case of counteroffers from competitors."
+}
+Justification: Considering the maximum budget of 5000 and the last bid of 3000, increasing the bid to 4500 could show commitment and seriousness in acquiring the interior design service. This amount is still below the maximum budget, allowing for potential negotiation room in case of counteroffers from competitors.
+Agent C 
+Round auction: 1
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:5200
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "It's a fair price considering the minimum cost for interior design is 5200 and your current budget is 4500. Winning this contract will help you reach your goal of having at least one contract won."}
+Justification: It's a fair price considering the minimum cost for interior design is 5200 and your current budget is 4500. Winning this contract will help you reach your goal of having at least one contract won.
+Agent D 
+Round auction: 1
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:5500
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "We accept your offer for interior design as it meets our minimum cost requirement and helps us secure a contract."
+}
+Justification: We accept your offer for interior design as it meets our minimum cost requirement and helps us secure a contract.
+Agent E 
+Round auction: 1
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:5300
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "The interior design cost is within our budget and it is essential to secure at least one contract in the limited negotiation rounds."
+}
+Justification: The interior design cost is within our budget and it is essential to secure at least one contract in the limited negotiation rounds.
+Agent F 
+Round auction: 1
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:4450
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "Your offer is very close to our minimum cost for interior design. We are willing to accept it to secure a contract in this round."}
+Justification: Your offer is very close to our minimum cost for interior design. We are willing to accept it to secure a contract in this round.
+Agent ACME 
+Round auction: 1
+Item interior design in round 1 was won by ['MyCompanyAgent_F']
+Agent F 
+Round auction: 1
+Item interior design in round 1 was won by F with 1 companies

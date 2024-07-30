@@ -1,0 +1,81 @@
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:4900
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+{"accept": true}
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:4900
+        {Contracts won} : 0
+        {Current budget} : 4000.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+{"accept": true}
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:10500
+        {Contracts won} : 0
+        {Current budget} : 7000.0
+        {Last offer}: None
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+{"accept":false}
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:4450
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+{"accept": true}
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:4450
+        {Contracts won} : 0
+        {Current budget} : 4000.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+{"accept": true}
+
+        {Round}:3
+        {Item}:interior design
+        {Minimum cost}:4450
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 4000.0
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+{"accept": true}
+Item interior design in round 2 was won by F with 1 companies
+
+        Respond to the offer for the construction item interior design in round 1
+        Current status:
+        {Current Round}:1
+        {Max number of rounds}: 3
+        {Number contracts won}: 0
+        {Item}:interior design
+        {Initiator}:MyACMEAgent_ACME
+        {Negotiations left}: 3
+        {Last offer}: 4500.0
+        {Number of contracts left}: 3
+        {My Counter offer}: NoneYou should try to increase the offer. If the offer is lower than the minimum cost, reject it.
+
+You will only respond in JSON format. Like this: {'offer': 1000.0}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "offer": 4600.0
+}
+Contract for interior design was assigned for 4600.0 to company F

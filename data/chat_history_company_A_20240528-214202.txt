@@ -1,0 +1,50 @@
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:6150
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+{"accept": true}
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:6150
+        {Contracts won} : 0
+        {Current budget} : 4000.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+{"accept": true}
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:8450
+        {Contracts won} : 0
+        {Current budget} : 7000.0
+        {Last offer}: None
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+{"accept": false}
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+{"accept": true}
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+{"accept": true}

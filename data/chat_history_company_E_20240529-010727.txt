@@ -1,0 +1,88 @@
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:6200
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "It's a fair price for the structure building item and we have the budget to cover the cost."}
+Justification: It's a fair price for the structure building item and we have the budget to cover the cost.
+Item structure building in round 0 was won by E with 1 companies
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3100
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"It's within our budget and we need to secure at least one contract in the limited rounds available."}
+Justification: It's within our budget and we need to secure at least one contract in the limited rounds available.
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3100
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget is 3500. By accepting the offer for electrics and plumbing at 2500, you can stay within budget and potentially win a contract."
+}
+Justification: Your current budget is 3500. By accepting the offer for electrics and plumbing at 2500, you can stay within budget and potentially win a contract.
+Item electrics and plumbing in round 1 was won by E with 2 companies
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:5300
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Interior design is within budget and can help attract clients for future contracts."
+}
+Justification: Interior design is within budget and can help attract clients for future contracts.
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:5300
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Interior design is a key aspect of the project and the minimum cost of 5300 is reasonable considering the quality of work required."
+}
+Justification: Interior design is a key aspect of the project and the minimum cost of 5300 is reasonable considering the quality of work required.
+
+        Respond to the offer for the construction item structure building in round 1
+        Current status:
+        {Current Round}:1
+        {Max number of rounds}: 3
+        {Number contracts won}: 0
+        {Item}:structure building
+        {Initiator}:MyACMEAgent_ACME
+        {Negotiations left}: 3
+        {Last offer}: 8000.0
+        {Number of contracts left}: 3
+        {My Counter offer}: NoneYou should try to increase the offer. If the offer is lower than the minimum cost, reject it.
+
+You will only respond in JSON format and provide a justification. Like this: {'offer': 1000.0, 'justification': 'Because I think it is a fair price'}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "offer": 7000.0,
+    "justification": "I am willing to reduce the price to 7000.0 to increase the chances of winning the contract in this round. It is still above the minimum cost of 6200, ensuring profitability for our company."
+}
+Justification: I am willing to reduce the price to 7000.0 to increase the chances of winning the contract in this round. It is still above the minimum cost of 6200, ensuring profitability for our company.
+Contract for structure building was assigned for 7000.0 to company E

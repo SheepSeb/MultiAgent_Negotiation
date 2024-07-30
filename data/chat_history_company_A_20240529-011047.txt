@@ -1,0 +1,67 @@
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:6150
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Accepting the offer for structural design will help in securing a contract and generating revenue for the company. It is within our budget limit and will increase our chances of winning a project."
+}
+Justification: Accepting the offer for structural design will help in securing a contract and generating revenue for the company. It is within our budget limit and will increase our chances of winning a project.
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:6150
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "We are willing to accept the offer for the structural design as it meets our minimum cost requirement and helps us secure a contract in this round."
+}
+Justification: We are willing to accept the offer for the structural design as it meets our minimum cost requirement and helps us secure a contract in this round.
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:8450
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept":true, "justification":"It's a fair price for the structure building service and we need to secure at least one contract in the limited rounds available."}
+Justification: It's a fair price for the structure building service and we need to secure at least one contract in the limited rounds available.
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your minimum cost for electrics and plumbing aligns with our budget, and we are interested in moving forward with this item to secure a contract."
+}
+Justification: Your minimum cost for electrics and plumbing aligns with our budget, and we are interested in moving forward with this item to secure a contract.
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "The minimum cost for electrics and plumbing is 3800, and your current budget is 3500. Accepting the offer will help you secure a contract and generate revenue."
+}
+Justification: The minimum cost for electrics and plumbing is 3800, and your current budget is 3500. Accepting the offer will help you secure a contract and generate revenue.

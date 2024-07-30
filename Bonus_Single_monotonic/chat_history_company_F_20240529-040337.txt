@@ -1,0 +1,28 @@
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:4500
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:4500
+        {Contracts won} : 0
+        {Current budget} : 4000.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+
+        {Round}:3
+        {Item}:structural design
+        {Minimum cost}:4500
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 4000.0
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+Item structural design in round 2 was won by F with 1 companies

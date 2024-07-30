@@ -1,0 +1,18 @@
+
+        {Round}:1
+        {Item}:structural design
+        {Minimum cost}:4150
+        {Contracts won} : 1
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}
+
+        {Round}:2
+        {Item}:structural design
+        {Minimum cost}:4150
+        {Contracts won} : 1
+        {Current budget} : 4000.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format. Like this: {'accept': True} or {'accept': False}

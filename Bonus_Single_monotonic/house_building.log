@@ -1,0 +1,26 @@
+2024-05-29 02:58:39,123 - environment - INFO - [NOTIFICATION] GAME ENDED UNSUCCESSFULLY! House owner could not secure contract for item structural design after 3 rounds
+
+2024-05-29 02:59:13,943 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_F'] have accepted construction item structural design at price: 4500.0
+2024-05-29 03:02:20,982 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_F'] have accepted construction item structural design at price: 4500.0
+2024-05-29 03:02:53,783 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_F'] have accepted construction item structural design at price: 4500.0
+2024-05-29 03:02:53,783 - environment - INFO - [NOTIFICATION] The Auction Phase has finished.
+2024-05-29 03:02:55,941 - environment - INFO - [NOTIFICATION] GAME ENDED UNSUCCESSFULLY! Owner Agent failed to negotiate properly for construction item structural design
+2024-05-29 03:03:18,154 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_F'] have accepted construction item structural design at price: 4500.0
+2024-05-29 03:03:18,154 - environment - INFO - [NOTIFICATION] The Auction Phase has finished.
+2024-05-29 03:03:20,153 - environment - INFO - [NOTIFICATION] Construction item structural design assigned to MyCompanyAgent_F!
+2024-05-29 03:57:10,077 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_F'] have accepted construction item structural design at price: 4500.0
+2024-05-29 03:57:10,077 - environment - INFO - [NOTIFICATION] The Auction Phase has finished.
+2024-05-29 04:00:37,113 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_F'] have accepted construction item structural design at price: 4500.0
+2024-05-29 04:00:37,113 - environment - INFO - [NOTIFICATION] The Auction Phase has finished.
+2024-05-29 04:02:23,319 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_F'] have accepted construction item structural design at price: 4500.0
+2024-05-29 04:02:23,320 - environment - INFO - [NOTIFICATION] The Auction Phase has finished.
+2024-05-29 04:03:19,492 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_F'] have accepted construction item structural design at price: 4500.0
+2024-05-29 04:03:19,492 - environment - INFO - [NOTIFICATION] The Auction Phase has finished.
+2024-05-29 04:03:37,420 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_F'] have accepted construction item structural design at price: 4500.0
+2024-05-29 04:03:37,420 - environment - INFO - [NOTIFICATION] The Auction Phase has finished.
+2024-05-29 04:04:16,516 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_F'] have accepted construction item structural design at price: 4500.0
+2024-05-29 04:04:16,517 - environment - INFO - [NOTIFICATION] The Auction Phase has finished.
+2024-05-29 04:04:16,520 - environment - INFO - [NOTIFICATION] Construction item structural design assigned to MyCompanyAgent_F!
+2024-05-29 04:04:34,428 - environment - INFO - [NOTIFICATION] Companies ['MyCompanyAgent_F'] have accepted construction item structural design at price: 4500.0
+2024-05-29 04:04:34,428 - environment - INFO - [NOTIFICATION] The Auction Phase has finished.
+2024-05-29 04:04:34,431 - environment - INFO - [NOTIFICATION] Construction item structural design assigned to MyCompanyAgent_F!

@@ -1,0 +1,11 @@
+
+        Propose a budget for the construction item structural design in round 1
+        Current status:
+        {Round}:1
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: None
+
+You will only respond in JSON format. Like this: {'budget': 1000.0}
+
+Think about it step by step, analyzing advantages and risks of its current situation

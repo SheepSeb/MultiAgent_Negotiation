@@ -1,0 +1,67 @@
+
+        {Round}:1
+        {Item}:structure building
+        {Minimum cost}:9500
+        {Contracts won} : 0
+        {Current budget} : 8000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{"accept": true, "justification": "It's a fair price for the structure building service."}
+Justification: It's a fair price for the structure building service.
+
+        {Round}:1
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 2500.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "It's a necessary service for any building project and the cost is within our budget."
+}
+Justification: It's a necessary service for any building project and the cost is within our budget.
+
+        {Round}:2
+        {Item}:electrics and plumbing
+        {Minimum cost}:3800
+        {Contracts won} : 0
+        {Current budget} : 3500.0
+        {Last offer}: 2500.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget is 3500. By accepting the offer for electrics and plumbing at 2500, you can stay within budget and potentially win a contract."
+}
+Justification: Your current budget is 3500. By accepting the offer for electrics and plumbing at 2500, you can stay within budget and potentially win a contract.
+
+        {Round}:1
+        {Item}:interior design
+        {Minimum cost}:5500
+        {Contracts won} : 0
+        {Current budget} : 3000.0
+        {Last offer}: None
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "Your current budget allows for the interior design cost, and winning this contract will help establish a presence in the market."
+}
+Justification: Your current budget allows for the interior design cost, and winning this contract will help establish a presence in the market.
+
+        {Round}:2
+        {Item}:interior design
+        {Minimum cost}:5500
+        {Contracts won} : 0
+        {Current budget} : 4500.0
+        {Last offer}: 3000.0
+
+You will only respond in JSON format and provide justification. Like this: {'accept': True, 'justification': 'It's a fair price'} or {'accept': False, 'justification': 'It's a fair price'}
+{
+    "accept": true,
+    "justification": "We accept your offer for interior design as it meets our minimum cost requirement and helps us secure a contract."
+}
+Justification: We accept your offer for interior design as it meets our minimum cost requirement and helps us secure a contract.

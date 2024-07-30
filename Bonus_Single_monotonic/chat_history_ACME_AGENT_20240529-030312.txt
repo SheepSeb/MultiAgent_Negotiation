@@ -1,0 +1,97 @@
+
+        Propose a budget for the construction item structural design in round 1
+        Current status:
+        {Round}:1
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: None
+
+You will only respond in JSON format. Like this: {'budget': 1000.0}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 3000.0
+}
+
+        Propose a budget for the construction item structural design in round 2
+        Current status:
+        {Round}:2
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: 3000.0
+
+You will only respond in JSON format. Like this: {'budget': 1000.0}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4000.0
+}
+
+        Propose a budget for the construction item structural design in round 3
+        Current status:
+        {Round}:3
+        {Item}:structural design
+        {Maxim budget}:5000
+        {Last bid}: 4000.0
+
+You will only respond in JSON format. Like this: {'budget': 1000.0}
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0
+}
+
+        Propose an offer starting from the first agreed price for the construction item structural design in round 2
+        Current status:
+        {Current Round}:2
+        {Max number of rounds}: 3
+        {Budget}:5000
+        {Item}:structural design
+        {Partner}:MyCompanyAgent_F
+        {How many partner you can negotiate with} : 1
+        {Last offer}: 4500.0
+        {Agreed first price}: 4500.0
+        {Counter offer}: None
+
+If the received offer is lower than the agreed first price or equal offer the same. Otherwise, make a counter offer to lower the price.
+
+If you only have one partner to negotiate with or directly aceept the offer if it is not higher than the buget
+
+You will only respond in JSON format. Like this: {'budget': 1000.0} and only respond with the budget
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 4500.0
+}
+Partner MyCompanyAgent_F responded with 5000.0
+Conversation id conv_structural design_MyACMEAgent_ACME_MyCompanyAgent_F
+Partner offer 5000.0
+Partner offer 5000.0
+
+        Propose an offer starting from the first agreed price for the construction item structural design in round 3
+        Current status:
+        {Current Round}:3
+        {Max number of rounds}: 3
+        {Budget}:5000
+        {Item}:structural design
+        {Partner}:MyCompanyAgent_F
+        {How many partner you can negotiate with} : 1
+        {Last offer}: 4500.0
+        {Agreed first price}: 4500.0
+        {Counter offer}: 5000.0
+
+This is the last round, make sure to make to accept the offer if it is not higher than the buget
+
+The buget should be the same as the Counter offer if you have only one partner to negotiate with
+
+If the received offer is lower than the agreed first price or equal offer the same. Otherwise, make a counter offer to lower the price.
+
+If you only have one partner to negotiate with or directly aceept the offer if it is not higher than the buget
+
+You will only respond in JSON format. Like this: {'budget': 1000.0} and only respond with the budget
+
+Think about it step by step, analyzing advantages and risks of its current situation
+{
+    "budget": 5000.0
+}
+Negotiation for structural design was won by MyCompanyAgent_F with 5000.0
